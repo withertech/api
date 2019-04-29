@@ -45,6 +45,10 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+.active {
+background-color: green;
+color: black;
+}
 </style>
 </head>
 <body style="background-color:black;">
@@ -63,7 +67,7 @@ li.dropdown {
     <a href="javascript:void(0)" class="dropbtn">Products</a>
     <div class="dropdown-content">
       <a href="/Tritium">Tritium</a>
-      <a href="/FuturerestoreGUI">Futurerestore GUI</a>
+      <a class="active" href="/FuturerestoreGUI">Futurerestore GUI</a>
     </div>
   </li>
 </ul>
